@@ -24,8 +24,12 @@
             "desc": "",
             "name": "clean.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "MergeArrests.R"
         }
     ],
-    "updated_at": "2018-10-04 17:35:56",
+    "updated_at": "2018-10-04 17:36:21",
     "url": "https://github.com/fall2018-wallace/rshett02"
 }
