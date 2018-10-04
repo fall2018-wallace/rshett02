@@ -9,7 +9,7 @@ readStates <- function(states)
     
     states<- states[,-1:-4]
     
-    colnames(states)<- c("Statename", "population", "popOver18","percentOver18")
+    colnames(states)<-c("Statename", "population", "popOver18","percentOver18")
     return(states)
 }
 
