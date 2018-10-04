@@ -1,7 +1,7 @@
 
 clean_data <- raw_data
 
-readStates <- fuction(states)
+readStates <- function(states)
 {
     states <- states[-1,]
     num.row<- nrow(states)
