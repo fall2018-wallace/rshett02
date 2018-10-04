@@ -12,3 +12,5 @@ readstates <- fuction(states)
     colnames(states)<- c("Statename", "population", "popOver18","percentOver18")
     return(states)
 }
+
+cleanCensus <-readStates(raw_data)
