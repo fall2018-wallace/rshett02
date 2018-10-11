@@ -30,7 +30,7 @@ ggplot(mergeddf, aes(x=factor(0),Murder))+ geom_boxplot() #a boxplot is created 
 #Step C: Which State had the Most Murders – bar charts
 #7)	Calculate the number of murders per state
 mergeddf$murdernum <- mergeddf$Murder*mergeddf$population/10000 #number of murders is calculated and added as acolumn
-View(mergeddf)
+mergeddf
 
 #8)	Generate a bar chart, with the number of murders per state
 murderplot <- ggplot(mergeddf, aes(x=stateName, y=murdernum)) #sets the dataset with x and y axis for the graph
