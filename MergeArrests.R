@@ -45,7 +45,7 @@ murderplot1 <- murderplot1 + ggtitle("TOTAL MURDERS") + theme(axis.text.x= eleme
 murderplot1
 
 #10)	 Generate a new bar chart, the same as in the previous step, but also sort the x-axis by the murder rate
-murderplot2 <- ggplot(data = mergeddf, aes(x=reorder(stateName,murdernum), y=murdernum))+geom_col()+ggtitle("Total Murders") + theme(axis.text.x = element_text(angle = 90, hjust = 1)) 
+murderplot2 <- ggplot(data = mergeddf, aes(x=reorder(stateName,Murder), y=murdernum))+geom_col()+ggtitle("Total Murders") + theme(axis.text.x = element_text(angle = 90, hjust = 1)) 
 murderplot2      #the reorder function is used to reorder the x axis based on murder rate                
 
 
