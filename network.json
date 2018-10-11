@@ -157,12 +157,6 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "rshett02",
-            "desc": "",
-            "name": "MergeArrests.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "p1.png"
         },
         {
@@ -197,8 +191,14 @@
         },
         {
             "name": "murderplot2.png"
+        },
+        {
+            "assigned_to": "rshett02",
+            "desc": "",
+            "name": "MergeArrests.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 05:17:00",
+    "updated_at": "2018-10-11 05:19:41",
     "url": "https://github.com/fall2018-wallace/rshett02"
 }
