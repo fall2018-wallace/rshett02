@@ -134,6 +134,16 @@
             ],
             "source": "MergeArrests.R",
             "target": "murderplot1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murderplot2",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "murderplot2.png"
         }
     ],
     "nodes": [
@@ -189,6 +199,6 @@
             "name": "murderplot2.png"
         }
     ],
-    "updated_at": "2018-10-11 05:16:49",
+    "updated_at": "2018-10-11 05:17:00",
     "url": "https://github.com/fall2018-wallace/rshett02"
 }
