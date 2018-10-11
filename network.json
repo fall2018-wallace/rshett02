@@ -74,6 +74,16 @@
             ],
             "source": "MergeArrests.R",
             "target": "p5.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "p6",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "p6.png"
         }
     ],
     "nodes": [
@@ -114,6 +124,6 @@
             "name": "p7.png"
         }
     ],
-    "updated_at": "2018-10-11 05:13:45",
+    "updated_at": "2018-10-11 05:13:57",
     "url": "https://github.com/fall2018-wallace/rshett02"
 }
