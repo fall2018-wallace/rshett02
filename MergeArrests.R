@@ -4,7 +4,7 @@ a<- df
 b <- USArrests #USAressts dataset is loaded in a local variable
 #3)	Create a merged dataframe -- with the attributes from both dataframes
 b$stateName <- rownames(b)
-mergeddf <- merge(a, b, by.x = "stateName", by.y=0) #a merged dataset is created 
+mergeddf <- merge(a, b, by.x = "stateName") #a merged dataset is created 
 mergeddf
 
 #Step B: Explore the Data – Understanding distributions
