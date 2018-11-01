@@ -24,6 +24,126 @@
             ],
             "source": "clean.R",
             "target": "MergeArrests.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "p1",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "p1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "p2",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "p2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "p3",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "p3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "p4",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "p4.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "p5",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "p5.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "p6",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "p6.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "p7",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "p7.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "p8",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "p8.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "p9",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "p9.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murderplot",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "murderplot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murderplot1",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "murderplot1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murderplot2",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "murderplot2.png"
         }
     ],
     "nodes": [
@@ -37,10 +157,48 @@
             "task_status": "in progress"
         },
         {
+            "name": "p1.png"
+        },
+        {
+            "name": "p2.png"
+        },
+        {
+            "name": "p3.png"
+        },
+        {
+            "name": "p4.png"
+        },
+        {
+            "name": "p5.png"
+        },
+        {
+            "name": "p6.png"
+        },
+        {
+            "name": "p7.png"
+        },
+        {
+            "name": "p8.png"
+        },
+        {
+            "name": "p9.png"
+        },
+        {
+            "name": "murderplot.png"
+        },
+        {
+            "name": "murderplot1.png"
+        },
+        {
+            "name": "murderplot2.png"
+        },
+        {
+            "assigned_to": "rshett02",
             "desc": "",
-            "name": "MergeArrests.R"
+            "name": "MergeArrests.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-04 17:38:05",
+    "updated_at": "2018-11-01 01:43:05",
     "url": "https://github.com/fall2018-wallace/rshett02"
 }
