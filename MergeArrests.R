@@ -23,9 +23,9 @@ p4 <- ggplot(mergeddf, aes(x=Rape)) + geom_histogram(bins = 15,color="black", fi
 p5 <- ggplot(mergeddf, aes(x=popOver18)) + geom_histogram(bins = 5,color="black", fill="blue")+ labs(x="popOver18")+ ggtitle("HISTOGRAM FOR MURDER")
 #histogram is created for popOver18 and number of bins are adjusted name on xaxis is changed and colour of histogram is changed
 #5)	Create a boxplot for the population, and a different boxplot for the murder rate.
-p6 <- ggplot(mergeddf, aes(x=factor(0),population))+ geom_boxplot() #a boxplot is created for population
+p6 <- ggplot(mergeddf, aes(x=factor(0),population))+ geom_boxplot() + ggtitle("BOX PLOT FOR POPULATION")#a boxplot is created for population
 
-p7 <- ggplot(mergeddf, aes(x=factor(0),Murder))+ geom_boxplot() #a boxplot is created for murder
+p7 <- ggplot(mergeddf, aes(x=factor(0),Murder))+ geom_boxplot() + ggtitle("BOX PLOT FOR MURDER")#a boxplot is created for murder
 #6)	Create a block comment explaining which visualization (boxplot or histogram) you thought was more helpful (explain why)
 #histogram tends to be more helpful as the distribution is visually more clear whereas it is confusing in boxplot because frequency is not represented
 #Step C: Which State had the Most Murders – bar charts
@@ -45,7 +45,7 @@ murderplot1 <- murderplot1 + ggtitle("TOTAL MURDERS") + theme(axis.text.x= eleme
 murderplot1
 
 #10)	 Generate a new bar chart, the same as in the previous step, but also sort the x-axis by the murder rate
-murderplot2 <- ggplot(data = mergeddf, aes(x=reorder(stateName,Murder), y=Murder))+geom_col()+ggtitle("Total Murders") + theme(axis.text.x = element_text(angle = 90, hjust = 1)) 
+murderplot2 <- ggplot(data = mergeddf, aes(x=reorder(stateName,Murder), y=murdernum))+geom_col()+ggtitle("Total Murders") + theme(axis.text.x = element_text(angle = 90, hjust = 1)) 
 murderplot2      #the reorder function is used to reorder the x axis based on murder rate                
 
 
